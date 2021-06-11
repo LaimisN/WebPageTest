@@ -80,6 +80,7 @@
     <Compile Include="Test\SimpleFormDemoTest.cs" />
     <Compile Include="Test\VartuTechnikaTest.cs" />
     <Compile Include="Tools\MyScreenshot.cs" />
+    <Compile Include="VartuTechnika.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
