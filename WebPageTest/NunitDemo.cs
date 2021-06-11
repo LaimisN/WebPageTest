@@ -22,7 +22,7 @@ namespace AutomationSolution
         public static void TestNowIs19()
         {
             DateTime currentTime = DateTime.Now;
-            Assert.AreEqual(19, currentTime.Hour, "Dabar ne 19 valanda");
+            Assert.AreEqual(23, currentTime.Hour, "Dabar ne 23 valanda");
         }
 
         [Test]

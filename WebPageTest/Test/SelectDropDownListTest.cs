@@ -22,7 +22,7 @@ namespace AutomationSolution.Test
 
 
         [TestCase("New Jersey", "California", TestName = "Pasirenkame 2 reiksmes ir patikriname pirma pasirinkima")]
-        [TestCase("Washington", "Ohio", "Texas", TestName = "Pasirenkame 3 reiksmes ir patikriname pirma pasirinkima")]
+        //[TestCase("Washington", "Ohio", "Texas", TestName = "Pasirenkame 3 reiksmes ir patikriname pirma pasirinkima")]
         public void TestMultipleDropdown(params string[] selectedElements)
         {
             selectDropDownPage.NavigateToDefaultPage()

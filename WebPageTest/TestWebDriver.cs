@@ -43,7 +43,7 @@ namespace AutomationSolution
             emailInputField.SendKeys("Test@Automation.com");
             IWebElement nextButton = chrome.FindElement(By.CssSelector("#login-signin"));
             nextButton.Click();
-            string expectedErrorMessage = "Sorry, we don't recognise this email address.";
+            string expectedErrorMessage = "Sorry, we don't recognize this email.";
             IWebElement actualErrorMessage = chrome.FindElement(By.Id("username-error"));
             Thread.Sleep(1000);
 

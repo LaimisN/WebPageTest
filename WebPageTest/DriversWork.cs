@@ -20,7 +20,7 @@ namespace AutomationSolution
 
         [TestCase("chrome", "Chrome", TestName = "Test Chrome Browser")]
         [TestCase("firefox", "Firefox", TestName = "Test Firefox Browser")]
-        [TestCase("opera", "Opera", TestName = "Test Opera Browser")]
+        //[TestCase("opera", "Opera", TestName = "Test Opera Browser")]
         public static void TestBrowser(string browserype, string expectedResult)
         {
 
