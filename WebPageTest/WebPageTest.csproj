@@ -58,9 +58,20 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Driver\Browsers.cs" />
     <Compile Include="Driver\CustomDriver.cs" />
+    <Compile Include="Page\AlertPage.cs" />
+    <Compile Include="Page\BasePage.cs" />
+    <Compile Include="Page\BasicCheckboxDemoPage.cs" />
+    <Compile Include="Page\SebPage.cs" />
+    <Compile Include="Page\SelectDropDownListPage.cs" />
+    <Compile Include="Page\SenukaiPage.cs" />
+    <Compile Include="Page\SimpleFormDemoPage.cs" />
+    <Compile Include="Page\VartuTechnikaPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Test\" />
+    <Folder Include="Tools\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
